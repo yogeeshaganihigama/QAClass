@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package leapyear.code;
+package com.leapyear;
 
 /**
  *
- * @author Iresh
+ * @author Yogeesha
  */
 public interface Calculation {
     public void calculate(int year);

@@ -3,17 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package leapyear;
+
+import com.leapyear.Calculation;
+import com.leapyear.CalculationImpl;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import leapyear.code.Calculation;
-import leapyear.code.CalculationImpl;
+
 
 
 /**
  *
- * @author Iresh
+ * @author Yogeesha
  */
 public class Leapyear {
 
@@ -27,11 +28,11 @@ public class Leapyear {
         try {
            System.out.println("Enter Year");
         int year=scanner.nextInt();
-        calculation.calculate(year); 
+        calculation.calculate(year);
         } catch (InputMismatchException e) {
             System.out.println(e.getMessage()+" WRONG!!!!!! You can enter numbers only");
         }
-        
+
     }
     
 }

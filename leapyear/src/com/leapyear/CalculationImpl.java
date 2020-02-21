@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package leapyear.code;
+package com.leapyear;
 /**
  *
- * @author Iresh
+ * @author Yogeesha
  */
 public class CalculationImpl implements Calculation{
             @Override
